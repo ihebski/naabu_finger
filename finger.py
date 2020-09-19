@@ -15,7 +15,7 @@ def finger(port):
 	for row in data:
 		if row["Port_Number"] == port:
 			return f':{row["Service_Name"]} {row["Description"]}'
-	return "UNKOWN"
+	return ""
 	
 
 with open('service-names-port-numbers.json') as f:
