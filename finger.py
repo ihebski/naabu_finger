@@ -10,7 +10,6 @@ by ihebski ( @ih3bski https://github.com/ihebski)
 '''
 import fileinput
 import json
-import pandas as pnd
 
 def finger(port):
 	for row in data:
